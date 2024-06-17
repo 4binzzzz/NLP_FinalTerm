@@ -18,10 +18,12 @@ kobert 파인튜닝에 사용할 데이터 전처리하는 코드
 파인튜닝된 kobert 모델
 
 <random_sentence Directory>
-대화형 시스템 실행 시 초기에 출력되는 문장
+대화형 시스템 실행 시 초기에 출력되는 문장이 들어있는 데이터
 
 <conversation_data Directory>
 polyglot-ko-5.8b 학습 데이터
 
 <label_data Directory>
 kobert 파인튜닝에 사용된 데이터
+
+※학습시킨 polyglot-ko-5.8b모델은 허깅페이스에 업로드하였고, 허깅페이스에서 로드해오는 방식을 사용했습니다.
